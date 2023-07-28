@@ -1,5 +1,5 @@
 package org.verizon.ConsumerServiceApi.controller;
 
-public class orderingcontroller {
+public class ServiceController {
 
 }
