@@ -2,6 +2,7 @@ package org.verizon.ConsumerServiceApi.model;
 
 import java.util.List;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
@@ -18,7 +19,7 @@ public class CustomerModel {
 	private String cust_name;
 	private int cust_id;
 	public CustomerModel() {
-		super();
+
 	}
 	public Ordering getOrdering() {
 		return ordering;
